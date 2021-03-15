@@ -1,0 +1,109 @@
+{
+    "column": {
+        "code": "仓库编码",
+        "name": "名称",
+        "type": "类型",
+        "status": "状态",
+        "validity": "有效期",
+        "position": "仓库所在地",
+        "company": "公司",
+        "postcode": "邮编",
+        "contact": "联系人",
+        "capacity_type": "仓储对象",
+        "expire_at": "有效期截止日",
+        "api": "API参数"
+    },
+    "address": {
+        "street1": "地址1",
+        "street2": "地址2",
+        "city": "城市",
+        "state": "省/州",
+        "country": "国家",
+        "postcode": "邮编",
+        "company": "公司",
+        "contact": "联系人",
+        "phone": "电话",
+        "email": "邮箱",
+        "latitude": "纬度",
+        "longitude": "经度"
+    },
+    "contactColumns": {
+        "contact": "姓名",
+        "phone": "电话",
+        "email": "邮箱",
+        "company": "公司",
+        "role": "角色",
+        "description": "描述",
+        "created": "添加时间"
+    },
+    "type": {
+        "fullfilment": "履行仓",
+        "trans": "转运仓"
+    },
+    "capacity_type": {
+        "big": "大件",
+        "small": "小件"
+    },
+    "status": {
+        "inuse": "使用中",
+        "unuse": "已停用"
+    },
+    "basic_title": "基础信息",
+    "contact": {
+        "nodata": "暂无可联系人",
+        "title": "联系人信息",
+        "detail": "联系人详情",
+        "add": "新增联系人",
+        "edit": "编辑联系人",
+        "delete": "删除联系人",
+        "success_tip": "{{action}}成功，是否返回仓库列表页面查看？"
+    },
+    "add": "新增仓库",
+    "edit": "编辑仓库",
+    "detail": "仓库详情",
+    "back_to_list": "返回列表",
+    "back_to_detail": "返回详情",
+    "containue": "继续新增",
+    "api": {
+        "modal_title": "{{warehouse.name}} API配置列表",
+        "title": "API信息维护",
+        "typ": "类型",
+        "username": "用户名",
+        "password": "密码",
+        "url": "URL",
+        "carrier_code": "Carrier Code",
+        "service_code": "Service Code",
+        "account": "客户ID",
+        "account_name": "客户名称"
+    },
+    "bind_account": {
+        "cancel_edit": "取消编辑",
+        "label": "授权客户",
+        "fetchFailedTip": "客户信息拉取失败。",
+        "successTip": "客户授权成功。",
+        "failedTip": "客户授权失败。",
+        "title": "授权客户",
+        "todo": "待授权客户",
+        "binded": "已授权客户",
+        "selected": "已选中客户",
+        "bindTxt": "开始授权",
+        "tip": "客户在使用仓库前请先为该客户配置使用仓库的权限。"
+    },
+    "fee": {
+        "set_title": "费率设置",
+        "get_tip": "费率信息获取",
+        "min": "起始时间",
+        "max": "结束时间",
+        "range": "库存周转范围",
+        "title": "费率({{currency}})",
+        "errot_tip_fee": "请完善费率参数",
+        "errot_tip_min": "请完善计费周期起始时间"
+    },
+    "service_code": {
+        "label": "关联服务",
+        "code": "服务名称",
+        "setting": "服务类型设置",
+        "bind": "绑定",
+        "unbind": "解绑"
+    }
+}

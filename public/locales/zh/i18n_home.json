@@ -1,0 +1,29 @@
+{
+    "label": {
+        "signin": "登录FBO系统"
+    },
+    "signin": "登录",
+    "signinFailed": "登录失败。",
+    "register": "注册",
+    "tip": {
+        "noAccount": "没有账号？马上",
+        "hasAccount": "直接"
+    },
+    "inputTip": "请输入您的{{name}}",
+    "username": "用户名",
+    "invalid": {
+        "username": "用户账号信息不正确。",
+        "password": "密码输入错误。"
+    },
+    "password": {
+        "title": "密码",
+        "edit": "修改密码",
+        "origin": "原密码",
+        "new": "新密码",
+        "confirm": "请再输一次新密码",
+        "failed": "密码修改失败。",
+        "successed": "密码修改成功",
+        "reLogin": "重新登录"
+    },
+    "confirm_edit": "确认修改"
+}

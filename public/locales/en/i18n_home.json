@@ -1,0 +1,29 @@
+{
+    "label": {
+        "signin": "Sign In FBO"
+    },
+    "signin": "Sign In",
+    "signinFailed": "Sign In Failed.",
+    "register": "Register",
+    "tip": {
+        "noAccount": "没有账号？马上",
+        "hasAccount": "Please "
+    },
+    "inputTip": "Please input {{name}}",
+    "username": "Account",
+    "invalid": {
+        "username": "Account Invalid.",
+        "password": "Password Invalid."
+    },
+    "password": {
+        "title": "Password",
+        "edit": "Edit Password",
+        "origin": "Original Password",
+        "new": "New",
+        "confirm": "Please enter the new password again",
+        "failed": "Password change failed.",
+        "successed": "Password changed successfully.",
+        "reLogin": "Log Back In"
+    },
+    "confirm_edit": "Confirm"
+}

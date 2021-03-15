@@ -1,0 +1,143 @@
+{
+    "name": "Order",
+    "columns": {
+        "company": "Company",
+        "id": "Order ID",
+        "account_name": "Account",
+        "shipments": "Shipments",
+        "error_type": "Error Type",
+        "status": "Status",
+        "order_rated": "Fee",
+        "ref_id": "Ref ID",
+        "order_at": "Order At",
+        "shipment_at": "Shipment At",
+        "description": "Description",
+        "to_address": "To Address",
+        "items": "Items",
+        "error": "Error Detail",
+        "service_type": "Service Type",
+        "carrier_code": "Carrier Code",
+        "service_code": "Service Code",
+        "carrier": "Carrier",
+        "tracking_code": "Tracking Code",
+        "product_id": "Product Id",
+        "product_name": "Product Name",
+        "sku": "SKU【Quantity】",
+        "sku_label": "SKU",
+        "product_qty": "Product Qty",
+        "warehouse_id": "Warehouse",
+        "warehouse_code": "warehouse_code",
+        "warehouse_name": "warehouse_name",
+        "file": "Label",
+        "is_auto": "Mode",
+        "shipped_at": "Shipped At",
+        "api_type": "Api Type"
+    },
+    "status": {
+        "new": "New",
+        "allocated": "Allocated",
+        "unallocated": "UnAllocated",
+        "cancelled": "Cancelled",
+        "cancelled_fail": "Cancelled Fail",
+        "allocate": "Allocate",
+        "ordering": "Ordering",
+        "purchasing": "Purchasing",
+        "success": "Success",
+        "shipping": "Shipping",
+        "shipped": "Shipped",
+        "failure": "Failure",
+        "cancelling": "Cancelling"
+    },
+    "errorType": {
+        "address": "Address Error",
+        "sku": "Sku Error",
+        "warehouse": "Warehouse Error",
+        "error": "Api Failed",
+        "excetion": "Api Excetion",
+        "cancelled_fail": "Cancelled Fail",
+        "inventory_insufficient": "Understock"
+    },
+    "division": {
+        "auto": "Auto",
+        "manual": "Manual"
+    },
+    "ordering": {
+        "title": "Ordering",
+        "re_title": "ReOrdering",
+        "tip": "Please upload the order file"
+    },
+    "action": {
+        "detail": "Order Detail",
+        "split": "Split",
+        "add": "Add Order",
+        "backToList": "Back To Order List",
+        "print_label": "Print Label",
+        "act_ftp_shipping": "ACT FTP Shipping",
+        "cancel": "Cancel"
+    },
+    "basic": {
+        "title": "The Basic information of the order",
+        "ref_id": "Reference ID",
+        "sku": "SKU",
+        "product_qty": "SKU QTY",
+        "warehouse_id": "Warehouse",
+        "service_type": "Service Type",
+        "description": "Description",
+        "order_at": "Order At",
+        "shipment_at": "Shipment At",
+        "parcel": "Parcel",
+        "to_address": "To Address"
+    },
+    "parcel": {
+        "title": "The Basic information of the parcel",
+        "weight": "Weight",
+        "weight_unit": "Weight Unit",
+        "dim_length": "Length",
+        "dim_width": "Width",
+        "dim_height": "Height",
+        "size": "Size(L*W*H)",
+        "dim_unit": "Size Unit"
+    },
+    "address": {
+        "title": "The Basic information of the address",
+        "street1": "Street1",
+        "street2": "Street2",
+        "city": "City",
+        "state": "State",
+        "country": "Country",
+        "postcode": "Postcode",
+        "company": "Company",
+        "contact": "Contact",
+        "phone": "Phone",
+        "email": "Email"
+    },
+    "batch": {
+        "title": "Select the order file that you want to import.",
+        "tip": "Use the format suggested by the template when uploading the order.",
+        "linkTxt": "Download the Template file",
+        "form_item_label": "Select Order Excel"
+    },
+    "single_label": "Add a single order",
+    "batch_label": "Bulk Import Order According To The {{typ}}",
+    "single_label2": "Item to add",
+    "title_toggleAddModal": "Switch the way new orders are placed.",
+    "warehouse": {
+        "title": "Information About Split  Warehouse",
+        "code": "Warehouse Code",
+        "isAutoSplit": "Whether automatic division.",
+        "text_bind": "bind the warehouse",
+        "noUsedAlert": "The company's warehouse is not available, please ",
+        "noUsedAlert2": " for it first.",
+        "user_empty_tip": "Please contact relevant person in charge to deal with the warehouse which is temporarily unavailable in your company."
+    },
+    "zipTip1": "Only support the order status is <b class=\"c-green\">{{success}}</b>, <b class=\"c-warn\">{{shipping}}</b> or <b className=\"c-green\">{{shipped}}</b>.",
+    "zipTip2": "The type Of All Orders needs to be DBO",
+    "cancelTip": "Only <b>{{success}}</b> orders can be cancelled.",
+    "service": {
+        "fetch_failed": "Failed to query the service information.",
+        "selected_warehouse": "The currently selected warehouse is: ",
+        "in_used": "Services which is in used:",
+        "empty_tip": "There is no vailable services to the warehouse.",
+        "tip": "Please confirm the service_code in the order table is available when uploading the order list. Please pay attention to the correct spelling of the service name. If the target warehouse is not bound with the service, please contact the FBO administrator to configure the service first."
+    }
+}

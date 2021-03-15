@@ -1,0 +1,38 @@
+{
+    "label": "商品",
+    "column": {
+        "code": "商品编码",
+        "barcode": "条形码",
+        "sku": "商品SKU",
+        "name": "商品名称",
+        "account_name": "客户名称",
+        "image": "图片",
+        "create_time": "创建时间",
+        "price": "单价",
+        "lowest_price": "最低单价",
+        "weight": "重量",
+        "size": "长/宽/高",
+        "hs_code": "HS Code",
+        "origin": "来源",
+        "status": "状态",
+        "origin_country": "原产地",
+        "expire_at": "过期日期",
+        "upc": "UPC",
+        "ean": "EAN",
+        "description": "描述"
+    },
+    "action": {
+        "add": "新增商品",
+        "detail": "商品详情",
+        "edit": "编辑商品"
+    },
+    "company": "所属公司",
+    "templateDownloadTip": "您可以直接使用模板批量导入您的商品列表（Excel格式），文件模板可以<a href=\"{{link}}\" target=\"_blank\" rel=\"noopener noreferrer\">在此下载</a>，商品列表请保证SKU的唯一性，当SKU重复时会导入失败。",
+    "selectCompanyTip": "请先选择导入商品所属公司。",
+    "uploadProductExcel": "上传商品表格",
+    "modelImport": "模板文件批量导入",
+    "singleImport": "单品手动添加",
+    "errorTip": "商品信息查询失败。",
+    "backToList": "返回商品列表",
+    "successTxt": "知道了。返回商品列表。"
+}

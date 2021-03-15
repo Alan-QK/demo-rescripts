@@ -1,0 +1,11 @@
+{
+  "menu": {
+    "menu": {
+      "events_mgr": "menu.menu.events_mgr",
+      "password_edit": "menu.menu.password_edit"
+    },
+    "fee": {
+      "label": "menu.fee.label"
+    }
+  }
+}

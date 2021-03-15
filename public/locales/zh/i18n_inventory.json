@@ -1,0 +1,76 @@
+{
+    "columns": {
+        "total_weight": "总重量",
+        "total_volume": "总体积",
+        "warehouse_code": "仓库编码",
+        "warehouse_name": "仓库名称",
+        "warehouse_qty": "仓库数量",
+        "product_qty": "商品数量",
+        "account": "客户名称",
+        "product": "商品名称",
+        "sku": "商品SKU",
+        "warehouse": "仓库",
+        "availabel_qty": "仓库有效数量",
+        "inventory_qty": "可售数量",
+        "return_qty": "退货数量",
+        "shipment_qty": "发件数量",
+        "inbound_qty": "入库数量",
+        "outbound_qty": "出库数量",
+        "damaged_qty": "损坏数量",
+        "hold_qty": "挂起数量",
+        "defective_qty": "次品数",
+        "exception_qty": "异常数量"
+    },
+    "update": {
+        "title": "更新库存",
+        "form_label": "请完善需要更新的参数信息",
+        "list_label": "库存更新记录",
+        "columns": {
+            "sku": "SKU",
+            "damage_quantity": "损坏数量",
+            "return_quantity": "退货数量",
+            "inbound_quantity": "入库数量",
+            "outbound_quantity": "出库数量",
+            "run_at": "执行时间",
+            "note": "备注",
+            "warehouse": "仓库"
+        },
+        "revoke": {
+            "label": "撤销",
+            "title": "确认撤销该记录？",
+            "tip": "当撤销该记录之后，库存会即时更新，请谨慎操作。",
+            "failedTip": "撤销失败。",
+            "successTip": "撤销成功。"
+        }
+    },
+    "export_tip": {
+        "warehouse": "请先选择仓库信息",
+        "account": "请先输入需要导出的客户名称"
+    },
+    "batch": {
+        "ok_btn_text": "开始更新",
+        "cancel_btn_text": "取消操作",
+        "update_template": "库存更新模板",
+        "update_select_tip": "选择模板文件",
+        "columns": {
+            "product_sku": "商品SKU",
+            "product_name": "商品名称",
+            "init_storage_qty": "Init Storage Qty",
+            "remaining_storage_qty": "Remaining Storage Qty(当天)",
+            "storage_fee_amount": "仓库费(当天)",
+            "inventory": "库存",
+            "date": "仓库费日期",
+            "storage_fee_price": "费率(当天)",
+            "batch": "批次ID",
+            "warehouse_code": "仓库编码",
+            "warehouse_name": "仓库名称",
+            "account_name": "客户名称"
+        },
+        "fee": {
+            "overview": "费率总览",
+            "warehouse": "各仓库明细",
+            "sku": "各SKU明细",
+            "account": "客户明细"
+        }
+    }
+}

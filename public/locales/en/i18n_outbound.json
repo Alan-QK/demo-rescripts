@@ -1,0 +1,52 @@
+{
+    "import": "Upload Outbound Files",
+    "edit": "Edit Outbound Files",
+    "detail": {
+        "title": "Outbound Files Details"
+    },
+    "scanColumns": {
+        "batch_id": "Batch ID",
+        "batch_name": " Batch Name",
+        "warehouse_id": "Warehouse ID",
+        "warehouse_code": "Warehouse Code",
+        "warehouse_name": "Warehouse Name",
+        "error_type": "Error Type",
+        "updated": "Update Time",
+        "tracking_code": "Tracking Code",
+        "trailer_id": "Trailer Id",
+        "pallet_id": "Pallet",
+        "line_id": "Line ID",
+        "order_id": "Order ID",
+        "order_ref_id": "Order Ref ID",
+        "order_product_id": "Order Product ID",
+        "order_product_sku": "Order Product SKU",
+        "upload_at": "Upload At"
+    },
+    "columns": {
+        "warehouse_code": "Warehouse Code",
+        "warehouse_name": "Warehouse Name",
+        "username": "Username",
+        "files": "Files",
+        "name": "Batch Name",
+        "description": "Description"
+    },
+    "panel": {
+        "basic": {
+            "title": "Please complete the basic information.",
+            "title_detail": "The Basic Information about Outbound."
+        },
+        "outbound": {
+            "title": "Please select the Outbound files.",
+            "title_detail": "Outbound files",
+            "templateDownloadTip": "Please Use <a href=\"{{link}}\" target=\"_blank\" rel=\"noopener noreferrer\">templates</a> when importing outbound files to avoid import failures. If in doubt, please consult relevant personnel."
+        },
+        "evidence": {
+            "title": "More Evidence Files.",
+            "title_detail": "More Evidence Files."
+        },
+        "uploaded": "Uploaded Files"
+    },
+    "upload_more_evidence": "Upload more evidence files.",
+    "success_tip": "Congratulations, your outbound record has been added.",
+    "successTxt": "Back To Outbound Records"
+}

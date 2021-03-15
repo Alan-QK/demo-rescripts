@@ -1,0 +1,77 @@
+{
+    "columns": {
+        "total_weight": "Total Weight",
+        "total_volume": "Total Volume",
+        "warehouse_code": "Warehouse Code",
+        "warehouse_name": "Warehouse Name",
+        "warehouse_qty": "Warehouse Qty",
+        "product_qty": "Product Qty",
+        "account": "Account Name",
+        "product": "Product Name",
+        "sku": "Product SKU",
+        "warehouse": "Warehouse",
+        "availabel_qty": "Availabel Qty",
+        "shipment_qty": "Shipment Qty",
+        "inventory_qty": "Inventory Qty",
+        "return_qty": "Return Qty",
+        "inbound_qty": "Inbound Qty",
+        "outbound_qty": "Outbound Qty",
+        "damaged_qty": "Damaged Qty",
+        "hold_qty": "Hold Qty",
+        "defective_qty": "Defective Qty",
+        "exception_qty": "Exception"
+    },
+    "update": {
+        "title": "Update Inventory",
+        "form_label": "Please complete the parameter information that needs to be updated.",
+        "list_label": "Inventory update record",
+        "columns": {
+            "sku": "SKU",
+            "damage_quantity": "Damage Quantity",
+            "return_quantity": "Return Quantity",
+            "inbound_quantity": "Inbound Quantity",
+            "outbound_quantity": "Outbound Quantity",
+            "run_at": "Run At",
+            "note": "Note",
+            "warehouse": "Warehouse"
+        },
+        "revoke": {
+            "label": "Revocation",
+            "title": "Confirm to revoke the record?",
+            "tip": "The inventory will be updated immediately after revoked the record. Please be careful.",
+            "failedTip": "Revoked failed.",
+            "successTip": "Revoked successful."
+        }
+    },
+    "export_tip": {
+        "warehouse": "Please select the warehouse information first.",
+        "account": "Please enter the name of the customer you want to export."
+    },
+    "batch": {
+        "ok_btn_text": "Start Update",
+        "cancel_btn_text": "Cancel the operation",
+        "update_template": "A template for inventory updates",
+        "update_select_tip": "Select the inventory update file",
+        "columns": {
+            "product_sku": "Product SKU",
+            "product_name": "Product Name",
+            "init_storage_qty": "Init Storage Qty",
+            "remaining_storage_qty": "Remaining Storage Qty",
+            "storage_fee_amount": "Storage Fee",
+            "storage_fee_currency": "Currency",
+            "inventory": "Inventory",
+            "date": "Date",
+            "storage_fee_price": "Rate",
+            "batch": "Batch ID",
+            "warehouse_code": "Warehouse Code",
+            "warehouse_name": "Warehouse Name",
+            "account_name": "Account Name"
+        },
+        "fee": {
+            "overview": "Overview",
+            "warehouse": "Details of warehouse",
+            "sku": "Details of sku",
+            "account": "Details of account"
+        }
+    }
+}

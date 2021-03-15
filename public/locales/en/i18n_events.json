@@ -1,0 +1,46 @@
+{
+    "event_name": "Event",
+    "notifier": "Notifier",
+    "copy_tip": "Copy the notifiers`s email.",
+    "add": "Add",
+    "name": "Name",
+    "email": "Email",
+    "add_tip": "Add notifier",
+    "del_tip": "Delete",
+    "order--act_ftp_shipping": {
+        "label": "Upload ACT orders by FTP",
+        "desc": "The ACT Warehouse related orders are uploaded to the ACT Warehouse Management System via the FTP server at a scheduled time each day."
+    },
+    "order--order_imported": {
+        "label": "Import Orders",
+        "desc": "This event is triggered when an order is imported through Excel"
+    },
+    "inventory--product_imported": {
+        "label": "Import Products",
+        "desc": "This event is emitted when a product is imported via Excel"
+    },
+    "inbound--inbound_notice_file_created": {
+        "label": "Create Inbound Notice",
+        "desc": "This event is triggered when the warehousing plan is successfully created"
+    },
+    "order--daily_deadline_shipping": {
+        "label": "Daily Collect Orders",
+        "desc": "Every day, at the set time point (5:00PM), we will summarize the successful orders to be closed that day"
+    },
+    "order--order_cancelled": {
+        "label": "Orders was canceled",
+        "desc": "This event is fired when the order has been cancelled"
+    },
+    "logs": {
+        "columns": {
+            "id": "ID",
+            "code": "Events Code",
+            "created": "Created At",
+            "is_handle_success": "Status",
+            "handled_at": "Handled At",
+            "params": "Params"
+        },
+        "handled_success": "Successful",
+        "handled_failed": "Failed"
+    }
+}

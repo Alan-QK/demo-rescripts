@@ -1,0 +1,34 @@
+{
+    "columns": {
+        "daily": {
+            "name": "Report Name",
+            "sku_qty": "SKU Quantity",
+            "status": "File Status",
+            "start_at": "Start At",
+            "stop_at": "Stop At",
+            "warehouse_name": "Warehouse"
+        },
+        "daily_detail": {
+            "start": "Initial Value",
+            "stop": "End Value",
+            "sku": "SKU",
+            "inventory_9am": "9AM Inventory",
+            "inventory_6pm": "6PM Inventory",
+            "new": "Inbound",
+            "order": "outbound",
+            "damage": "Damage",
+            "return": "Return",
+            "height": "Height",
+            "width": "Wide",
+            "length": "Length",
+            "weight": "Weight",
+            "size": "Size (single)",
+            "summary": "Total Volume",
+            "message": "Memo"
+        }
+    },
+    "status": {
+        "ready": "Generated",
+        "running": "Running"
+    }
+}

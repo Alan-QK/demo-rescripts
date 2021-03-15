@@ -1,0 +1,148 @@
+{
+    "clear": "Clear",
+    "search": {
+        "label": "Search",
+        "empty": "No Result",
+        "senior": "Senior Search",
+        "batch": "Batch Search",
+        "senior-tip": "This condition supports bulk searches, separated by English commas.",
+        "batch_tip": "Filter conditions shouled be separated by English commas or newlines."
+    },
+    "reset": "Reset",
+    "refresh": "Refresh",
+    "searching": "Searching...",
+    "filter_conditions": "Filter Conditions",
+    "operation": "Operation",
+    "save": "Save",
+    "delete": "Delete",
+    "download": "Download",
+    "view": "View",
+    "view_detail": "View Detail",
+    "cancel": "Cancel",
+    "close": "Close",
+    "refuse": "Refuse",
+    "submit": "Submit",
+    "void": "Void",
+    "pass": "Approve",
+    "confirm": "Confirm",
+    "copy": "Copy",
+    "yes": "Yes",
+    "no": "No",
+    "add": "Add",
+    "edit": "Edit",
+    "modify": "Modify",
+    "unknow": "Unknow",
+    "tip": "Tip",
+    "error": "Error",
+    "success": "Success",
+    "failed": "Failed",
+    "packup": "Packup",
+    "expand": "Expand",
+    "upload": "Upload",
+    "upload_file": "Upload Files",
+    "upload_at": "Upload At",
+    "import": "Import {{name}}",
+    "export": "Export {{name}}",
+    "placeholder": {
+        "input": "Please input the {{name}}",
+        "select": "Please select the {{name}}",
+        "date.start": "From {{name}}",
+        "date.end": "To {{name}}"
+    },
+    "inputTip": "Please input {{name}}",
+    "paginationTotalText": "Total {{total}}",
+    "action": {
+        "failed": "{{action}} Failed。",
+        "success": "{{action}} Succeed。"
+    },
+    "error-without-status": "页面加载异常",
+    "enable": "Enable",
+    "disable": "Disable",
+    "expired": "Expired",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "next": "Next",
+    "prev": "Prev",
+    "create_time": "Created Time",
+    "update_time": "Updated Time",
+    "update": "Update",
+    "batch_update": "Batch Update",
+    "memo": "Memo",
+    "desc": "Description",
+    "lang_txt": "中文",
+    "view-all": "Etc",
+    "colon": ":",
+    "custom-table-columns": "Custom Columns",
+    "select-all": "Select ALl",
+    "selectFile": "Select File",
+    "deleteFile": "Delete File",
+    "file-name": "{{name}} File",
+    "action-tip": "Attention",
+    "edit-pwd": "Edit Password",
+    "logout": "Sign out",
+    "balance": "Balance",
+    "logouting": "Logging out...",
+    "unCheckAll": "Uncheck all",
+    "confirm_cancel": "Cancel the Current Operation?",
+    "to_perfect": "Data to be perfected",
+    "setting": {
+        "columns": "Table Columns",
+        "actions": "Actions"
+    },
+    "size": {
+        "length": "Length",
+        "width": "Width",
+        "height": "Height"
+    },
+    "units": {
+        "weight": {
+            "gram": "g",
+            "kilogram": "kg",
+            "ounce": "oz",
+            "pound": "lb"
+        },
+        "size": {
+            "millimeter": "mm",
+            "centimeter": "cm",
+            "meter": "n",
+            "inch": "in",
+            "foot": "ft"
+        },
+        "price": {
+            "USD": "USD",
+            "RMB": "RMB",
+            "CNY": "CNY"
+        }
+    },
+    "uploadAlert": {
+        "begin": "Start importing {{name}}... Please be patient",
+        "finished": "{{name}} import completed.",
+        "failed": "{{name}} import failed.",
+        "success": "There are <span class=\"c-success\">{{success}}</span> successes and <span class=\"c-danger\">{{fail}}</span> failures.",
+        "viewFailedList": "View the failure list",
+        "failedListName": "The failure list of {{name}}"
+    },
+    "permissionInPageTitle": "Configure permissions within the page.",
+    "warehouse": {
+        "type": {
+            "fullfilment": "Fullfilment",
+            "trans": "Trans"
+        },
+        "capacity_type": {
+            "big": "Big",
+            "small": "Small"
+        }
+    },
+    "searchKey": "keywords",
+    "password": {
+        "title": "The Vaild Rules of Password.",
+        "r_1": "The character of at least 8 bits in length.",
+        "r_2": "Must contain at least 1 uppercase letter, 1 digit, and 1 special character.",
+        "r_3": "Need to include two non-alphanumeric characters.",
+        "r_4": "Cannot include the user name.",
+        "r_5": "Cannot contain simple character groups like '123'."
+    },
+    "company": "Company",
+    "or": "Or"
+}

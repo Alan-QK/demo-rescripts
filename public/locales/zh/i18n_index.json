@@ -1,0 +1,41 @@
+{
+    "welcome": "您好{{name}}, 欢迎访问FBO管理系统。",
+    "warehouse": {
+        "code": "仓库编码",
+        "name": "仓库名称",
+        "capacity_type": "仓储对象",
+        "type": "类型"
+    },
+    "container": {
+        "code": "集装箱编码",
+        "typ": "类型",
+        "status": "状态",
+        "warehouse": "仓库",
+        "inbound_at": "计划入库时间",
+        "arrived_at": "入库时间",
+        "emptied_at": "卸柜时间",
+        "picked_up_at": "取柜时间",
+        "scheduled_picked_up_at": "计划取柜时间"
+    },
+    "panel": {
+        "detail": "了解详情",
+        "title": {
+            "warehouse": "仓库信息",
+            "container": "集装箱信息",
+            "order": "订单概览"
+        },
+        "tip": {
+            "warehouse": "当前您共有 <span class=\"c-danger\" style=\"font-size:1.5em\">{{num}}</span> 个仓库正在使用。",
+            "container": "当前您共有 <span class=\"c-danger\" style=\"font-size:1.5em\">{{num}}</span> 个集装箱正在使用。"
+        }
+    },
+    "shortcuts": {
+        "title": "快捷操作：",
+        "inbound_noticeAdd": "创建入库计划",
+        "inboundAdd": "创建一个入库计划",
+        "outboundAdd": "创建一个出库计划",
+        "orderAdd": "导入订单",
+        "productAdd": "添加商品",
+        "warehouseAdd": "新增仓库"
+    }
+}

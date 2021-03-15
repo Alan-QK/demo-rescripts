@@ -1,0 +1,41 @@
+{
+    "welcome": "Hello {{name}}. Welcome To FBO.",
+    "warehouse": {
+        "code": "Warehouse Code",
+        "name": "Warehosue Name",
+        "capacity_type": "Capacity Type",
+        "type": "Type"
+    },
+    "container": {
+        "code": "Code",
+        "typ": "Type",
+        "status": "Status",
+        "warehouse": "Warehouse",
+        "inbound_at": "Inbound At",
+        "arrived_at": "Arrived At",
+        "emptied_at": "Emptied At",
+        "picked_up_at": "PickedUp At",
+        "scheduled_picked_up_at": "Scheduled PickedUp At"
+    },
+    "panel": {
+        "detail": "For Details",
+        "title": {
+            "warehouse": "Warehouses",
+            "container": "Containers",
+            "order": "Order Statistics"
+        },
+        "tip": {
+            "warehouse": "You currently have <span class=\"c-danger\" style=\"font-size:1.5em\">{{num}}</span> warehouses in use.",
+            "container": "You currently have <span class=\"c-danger\" style=\"font-size:1.5em\">{{num}}</span> containers in use."
+        }
+    },
+    "shortcuts": {
+        "title": "Shortcuts:",
+        "inbound_noticeAdd": "Create A Notice of Inbound",
+        "inboundAdd": "Create A Record of Inbound",
+        "outboundAdd": "Create A Record of Outbound",
+        "orderAdd": "Import Orders",
+        "productAdd": "Add the Goods",
+        "warehouseAdd": "Add A New Warehouse"
+    }
+}

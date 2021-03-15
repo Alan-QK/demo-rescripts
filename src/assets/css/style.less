@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html,
+body,
+#root {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+}
+
+.flex-item-center {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-r {
+    border-right: 1px solid #ddd;
+}
+
+.border-b {
+    border-bottom: 1px solid #ddd;
+}
+
+.fz-s {
+    font-size: 0.8em;
+}
+
+.d-flex {
+    display: flex !important;
+
+    &.align-center {
+        align-items: center;
+    }
+
+    &.flex-row {
+        flex-direction: row;
+    }
+
+    &.flex-col {
+        flex-direction: column;
+    }
+
+    &.row-nowrap {
+        flex-flow: row nowrap;
+    }
+
+    &.d-wrap {
+        flex-wrap: wrap;
+    }
+
+    &.j-between {
+        justify-content: space-between;
+    }
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+@set: {
+    success: #4aa28c;
+    danger: #d26363;
+    warn: #faad14;
+    deep: #216db5;
+    green: #1b9612;
+    default: #697d8d;
+    disable: #999;
+    white: #fff;
+};
+
+each(@set, {
+        .c-@{key} {
+            color: @value;
+        }
+
+        .bg-@{key} {
+            background-color: @value;
+        }
+    }
+
+);
+
+@size: {
+    0: 0px;
+    1: 0.25rem;
+    2: 0.5rem;
+    3: 0.75rem;
+    4: 1rem;
+    5: 1.25rem;
+    6: 1.5rem;
+    7: 1.75rem;
+    8: 2rem;
+};
+
+each(@size, {
+        .p-@{key} {
+            padding : @value  !important;
+        }
+
+        .m-@{key} {
+            margin : @value  !important;
+        }
+
+        .mx-@{key} {
+            margin-left : @value  !important;
+            margin-right: @value  !important;
+        }
+
+        .my-@{key} {
+            margin-top   : @value  !important;
+            margin-bottom: @value  !important;
+        }
+
+        .px-@{key} {
+            padding-left : @value  !important;
+            padding-right: @value  !important;
+        }
+
+        .py-@{key} {
+            padding-left : @value  !important;
+            padding-right: @value  !important;
+        }
+
+        .mr-@{key} {
+            margin-right: @value  !important;
+        }
+
+        .mr-@{key} {
+            margin-right: @value  !important;
+        }
+
+        .ml-@{key} {
+            margin-left: @value  !important;
+        }
+
+        .mt-@{key} {
+            margin-top: @value  !important;
+        }
+
+        .mb-@{key} {
+            margin-bottom: @value  !important;
+        }
+
+        .pr-@{key} {
+            padding-right: @value  !important;
+        }
+
+        .pl-@{key} {
+            padding-left: @value  !important;
+        }
+
+        .pt-@{key} {
+            padding-top: @value  !important;
+        }
+
+        .pb-@{key} {
+            padding-bottom: @value  !important;
+        }
+    }
+
+);
+
+// reset antd table
+.ant-table .ant-table-thead {
+    .ant-table-header-column,
+    .ant-table-cell {
+        font-weight: 700;
+
+        &:hover {
+            background: #efefef;
+        }
+    }
+}
+
+.ant-table-title {
+    padding-top: 0 !important;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+    font-size: 12px;
+}
+
+.ant-table-row-expand-icon-cell {
+    text-align: center;
+}
+
+.ant-btn.ant-btn-sm {
+    font-size: 0.8em !important;
+}
+
+.ant-table.ant-table-small {
+    font-size: 0.8em !important;
+}
+
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.flex-space-between {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}

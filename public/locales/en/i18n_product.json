@@ -1,0 +1,38 @@
+{
+    "label": "Product",
+    "column": {
+        "code": "Code",
+        "barcode": "Barcode",
+        "sku": "SKU",
+        "name": "Name",
+        "account_name": "Account Name",
+        "image": "Image",
+        "create_time": "Create Time",
+        "price": "Price",
+        "lowest_price": "Lowest Price",
+        "weight": "Weight",
+        "size": "L\\W\\H",
+        "hs_code": "HS Code",
+        "origin": "Origin",
+        "status": "Status",
+        "origin_country": "Origin Country",
+        "expire_at": "ExpireAt",
+        "upc": "UPC",
+        "ean": "EAN",
+        "description": "Description"
+    },
+    "action": {
+        "add": "Add Product",
+        "detail": "Product Detail",
+        "edit": "Edit Product"
+    },
+    "company": "Company",
+    "templateDownloadTip": "You can directly use the template to import your commodity list in batch (Excel format). The file template can be downloaded <a href=\"{{link}}\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>. Please ensure the uniqueness of the commodity list, and import will fail when the SKU repeats.",
+    "selectCompanyTip": "Please select the company to which the imported goods belong first.",
+    "uploadProductExcel": "Upload Product Excel",
+    "modelImport": "Import By Template",
+    "singleImport": "Single Add",
+    "errorTip": "Query Failed.",
+    "backToList": "Back to Product list.",
+    "successTxt": "OK. Back to Product list."
+}

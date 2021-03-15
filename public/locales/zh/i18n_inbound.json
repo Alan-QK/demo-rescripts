@@ -1,0 +1,86 @@
+{
+    "inbound": "集装箱信息",
+    "import": "新建入库记录",
+    "edit": "编辑入库记录",
+    "detail": {
+        "title": "入库记录详情",
+        "asn": "ASN 编码"
+    },
+    "panel": {
+        "container": {
+            "title": "请选择入库时的集装箱。",
+            "title_detail": "入库记录基本信息",
+            "name": "集装箱",
+            "status": "集装箱状态"
+        },
+        "pod": {
+            "label": "POD资料",
+            "title_edit": "编辑POD相关资料",
+            "title_detail": "POD资料详情",
+            "title": "请上传POD相关资料"
+        },
+        "tally_report": {
+            "label": "理货报告",
+            "title_edit": "编辑理货报告",
+            "title_detail": "理货报告详情",
+            "title": "请上传理货文件的相关资料"
+        },
+        "others": {
+            "label": "其他文件",
+            "title_edit": "编辑其他文件",
+            "title_detail": "其他文件详情",
+            "title": "其他的一些文件补充<span style=\"color: #999\">(非必须项)</span>"
+        },
+        "uploaded": "已上传资料"
+    },
+    "columns": {
+        "account": "所属客户",
+        "container": "集装箱",
+        "asn": "ASN 编码",
+        "pod": "POD资料",
+        "tally_report": "理货报告",
+        "others": "其他文件",
+        "inbound_at": "入库时间"
+    },
+    "tallyReportColumns": {
+        "truck_company": "卡车公司",
+        "container_or_trailer": "车牌号",
+        "driver_print_name": "司机",
+        "unloading_date": "卸货日期",
+        "unloading_start_time": "卸货时间起",
+        "unloading_finish_time": "卸货时间止",
+        "unloading_team_leader": "卸货负责人",
+        "loading_method": "Loading Method",
+        "pallet_quantity": "托盘数量",
+        "report_date": "报告日期",
+        "container": "集装箱",
+        "general_reports": "报告详情",
+        "expiration_date_reports": "过期日期报告",
+        "other_exception_reports": "异常报告"
+    },
+    "tallyReportDetail": {
+        "title": "Tally Report 详情",
+        "sku": "SKU",
+        "quantity": "数量",
+        "delete": "删除Tally Report",
+        "general_reports": {
+            "packing_list_quantity": "装箱数",
+            "actual_quantity": "实际数量",
+            "shortage_quantity": "缺货量",
+            "overtage_quantity": "超额量",
+            "damage_quantity": "损坏量"
+        },
+        "expiration_date_reports": {
+            "actual_exp_date": "实际过期日期",
+            "packing_list_exp_date": "装箱过期日期"
+        },
+        "other_exception_reports": {
+            "exception_description": "异常描述"
+        }
+    },
+    "delete_file_failed_tip": "文件删除失败。",
+    "cancel_modal_tip": "确认取消当前操作？",
+    "cancel_modal_txt": "您将回到入库记录列表界面。",
+    "back_to_list": "返回入库记录列表",
+    "templateDownloadTip": "您可以<a href=\"{{link}}\" target=\"_blank\" rel=\"noopener noreferrer\">在此下载</a>理货报告模板。"
+}

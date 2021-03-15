@@ -1,0 +1,15 @@
+{
+    "name": "Name",
+    "description": "Description",
+    "is_active": "Is Active",
+    "active_at": "Active At",
+    "expire_at": "Expire At",
+    "currency": "Currency",
+    "service_type": "Service Type",
+    "zone_type": "Zone Type",
+    "rate_unit": "Rate Unit",
+    "rate_fil": "Rate File",
+    "account_name": "Account Name",
+    "tip": "上传的费率表请参考模板进行编辑，注意完善模板中【基础费率】和【默认附加费】的相关信息。",
+    "detail": "The Detail of Rate"
+}

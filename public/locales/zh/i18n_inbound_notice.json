@@ -1,0 +1,127 @@
+{
+    "column": {
+        "account_name": "客户名称",
+        "inbound_no": "入仓计划编号",
+        "warehouse_address": "仓库地址",
+        "eta_at": "预计到达时间",
+        "etd_at": "预计入仓时间",
+        "total_ctns": "总箱数",
+        "total_gross_weight_kg": "总重量",
+        "total_cbm_m3": "总体积",
+        "file": "入仓原文件",
+        "asn": "集装箱详情"
+    },
+    "detailColumn": {
+        "container_no": "集装箱编码",
+        "sku": "SKU",
+        "description": "描述",
+        "ctns": "箱数量",
+        "total_gross_weight_kg": "总重量",
+        "total_cbm_m3": "总体积",
+        "inbound_notice": "Inbound Notice"
+    },
+    "asn": {
+        "column": {
+            "status": "入仓计划状态",
+            "code": "ASN编码",
+            "asn_id": "ASN ID",
+            "shipping_origin_address": "入仓来源",
+            "container": "集装箱信息"
+        },
+        "status": {
+            "new": "新建",
+            "scheduled": "已预定",
+            "received": "已接收",
+            "unloaded": "已卸货",
+            "closed": "已关闭",
+            "canceled": "已取消"
+        },
+        "editTipSuccess": "ASN状态修改成功。",
+        "editTipFailed": "ASN状态修改失败。",
+        "markFinished": "关闭",
+        "cancel": "取消"
+    },
+    "container": {
+        "column": {
+            "code": "集装箱编码",
+            "typ": "集装箱类型",
+            "status": "集装箱状态",
+            "warehouse": "仓库",
+            "inbound_at": "计划入仓时间",
+            "arrived_at": "实际到达时间",
+            "emptied_at": "卸柜时间",
+            "picked_up_at": "取柜时间",
+            "scheduled_picked_up_at": "计划取柜时间",
+            "owner_name": "船运公司",
+            "owner_email": "船运公司邮箱",
+            "owner_email_notified_at": "提醒时间",
+            "notify_to": "邮件抄送人"
+        },
+        "status": {
+            "title": "集装箱<b>{{code}}</b>状态",
+            "inbound": "计划入仓",
+            "arrived": "到达",
+            "emptied": "已清空",
+            "picked_up": "已取柜"
+        },
+        "updateOwner": "编辑船公司信息",
+        "notifier": {
+            "add": "新增抄送人",
+            "name": "抄送人",
+            "email": "抄送人邮箱",
+            "copy_tip": "一键拷贝所有邮箱",
+            "title": "邮件抄送人详情",
+            "action_tip": "更新抄送人信息"
+        }
+    },
+    "carton": {
+        "column": {
+            "weight": "重量",
+            "weight_unit": "重量单位",
+            "dim_length": "长",
+            "dim_width": "宽",
+            "dim_height": "高",
+            "dim_unit": "尺寸单位",
+            "code": "Carton编码",
+            "container": "集装箱",
+            "pallet_code": "托盘",
+            "container_code": "集装箱编码"
+        }
+    },
+    "pallet": {
+        "column": {
+            "weight": "重量",
+            "weight_unit": "重量单位",
+            "dim_length": "长",
+            "dim_width": "宽",
+            "dim_height": "高",
+            "dim_unit": "尺寸单位",
+            "code": "托盘编码",
+            "container": "集装箱编码"
+        }
+    },
+    "each": {
+        "search": "搜索信息",
+        "column": {
+            "pallet_code": "托盘编码",
+            "carton_code": "Carton编码",
+            "container_code": "集装箱编码",
+            "weight": "重量",
+            "weight_unit": "重量单位",
+            "dim_length": "长",
+            "dim_width": "宽",
+            "dim_height": "高",
+            "dim_unit": "尺寸单位",
+            "sku": "SKU",
+            "sku_quantity": "SKU数量"
+        }
+    },
+    "uploadBtnTxt": "选择入仓计划文件并上传",
+    "add": "创建入仓计划",
+    "selectCompanyTip": "请先选择导入入仓计划所属公司。",
+    "templateDownloadTip": "导入入仓计划时请使用<a href=\"{{link}}\" target=\"_blank\" rel=\"noopener noreferrer\">模板</a>，避免造成导入失败。有疑问请咨询相关人员。",
+    "template": "下载入仓计划模板",
+    "update_asn": "更新ASN状态",
+    "detail": "{{name}}详情",
+    "qty": "{{name}}数量"
+}

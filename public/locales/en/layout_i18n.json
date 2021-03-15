@@ -1,0 +1,114 @@
+{
+    "menu": {
+        "signin": "Sign In FBO",
+        "home": "Home",
+        "product": "Product",
+        "subs_product": {
+            "list": "Product List",
+            "add": "Add Product",
+            "detail": "Product Detail",
+            "edit": "Edit Product"
+        },
+        "inventory": {
+            "title": "Inventory",
+            "list": "Inventory List",
+            "update": "Manual Update",
+            "detail": "Inventory Detail",
+            "batch": "Batch List",
+            "batch_fee": "Batch Fee List",
+            "summary": {
+                "total": "Total Inventory",
+                "warehouse": "Warehouse Inventory",
+                "account": "Account Inventory"
+            }
+        },
+        "shipment": "Shipment",
+        "report": {
+            "title": "Data Report",
+            "daily": "Daily Report",
+            "daily_detail": "Daily Report Detail"
+        },
+        "warehouse": "Warehouse",
+        "setting": "Setting",
+        "account": "User Center",
+        "sub_account": {
+            "list": "User List",
+            "detail": "User Detail",
+            "edit": "Edit UserInfo",
+            "add": "Add User",
+            "template": {
+                "title": "Permission Templates",
+                "add": "Add Permission Templates",
+                "edit": "Edit Permission Templates"
+            }
+        },
+        "address": "Address",
+        "subs_warehouse": {
+            "add": "Add Warehouse",
+            "list": "Warehouse List",
+            "edit": "Edit Warehouse",
+            "detail": "Warehouse Detail"
+        },
+        "outbound": {
+            "title": "Outbound",
+            "record": "Outbound Records",
+            "scan": "Outbound Scan",
+            "add": "Add Outbound Record",
+            "edit": "Edit Outbound Record",
+            "detail": "Outbound Detail"
+        },
+        "inbound": {
+            "title": "Inbound",
+            "list": "Inbound Records",
+            "add": "Add Inbound",
+            "edit": "Edit Inbound",
+            "detail": "Inbound Detail",
+            "tally_report": "Tally Report"
+        },
+        "inbound_detail": "Inbound Detail",
+        "tally_report": {
+            "list": "Tally Report",
+            "detail": "Tally Report Detail"
+        },
+        "inbound_notice": {
+            "title": "Inbound Notice",
+            "mgr": "Inbound Notice",
+            "list": "Inbound Notices",
+            "add": "Add Inbound Notice",
+            "asn": "ASN",
+            "container": "Containers",
+            "carton": "Cartons",
+            "pallet": "Pallets",
+            "sku": "SKUs",
+            "asn_detail": "ASN Detail",
+            "container_detail": "Container Detail",
+            "carton_detail": "Carton Detail",
+            "pallet_detail": "Pallet Detail",
+            "sku_detail": "SKU Detail"
+        },
+        "order": {
+            "title": "Order",
+            "list": "Order List",
+            "add": "Add Order",
+            "detail": "Order Detail"
+        },
+        "password_edit": "Edit Password",
+        "events_mgr": "Events Setting",
+        "settings": "Settings",
+        "rate": {
+            "label": "Rate",
+            "list": "Rate List",
+            "create": "Create Rate",
+            "detail": "Rate Detail"
+        },
+        "events": {
+            "label": "Events Setting",
+            "receiver": "Email Receiver",
+            "logs": "Events Logs"
+        }
+    },
+    "positionAt": "Current Page: ",
+    "warehouse": "My Warehouse",
+    "logout": "Sign out",
+    "userMgr": "User Setting"
+}

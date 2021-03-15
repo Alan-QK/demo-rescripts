@@ -1,0 +1,150 @@
+{
+    "clear": "清空",
+    "search": {
+        "label": "搜索",
+        "empty": "搜索结果为空",
+        "senior": "高级搜索",
+        "batch": "批量查询",
+        "senior-tip": "该条件支持批量搜索，请使用英文逗号隔开。",
+        "batch_tip": "搜索条件使用英文逗号或者换行分隔。"
+    },
+    "reset": "重置",
+    "refresh": "刷新",
+    "searching": "搜索中...",
+    "filter_conditions": "过滤条件",
+    "operation": "操作",
+    "save": "保存",
+    "delete": "删除",
+    "download": "下载",
+    "view": "查看",
+    "view_detail": "查看详情",
+    "cancel": "取消",
+    "close": "关闭",
+    "refuse": "拒绝",
+    "submit": "提交",
+    "void": "废弃",
+    "pass": "通过",
+    "confirm": "确定",
+    "copy": "复制",
+    "yes": "是",
+    "no": "否",
+    "add": "新增",
+    "edit": "编辑",
+    "modify": "修改",
+    "unknow": "未知",
+    "tip": "提示",
+    "error": "错误",
+    "success": "成功",
+    "failed": "失败",
+    "packup": "收起",
+    "expand": "展开",
+    "upload": "上传",
+    "upload_at": "上传时间",
+    "upload_file": "上传文件",
+    "import": "导入{{name}}",
+    "export": "导出{{name}}",
+    "placeholder": {
+        "input": "请输入{{name}}",
+        "select": "请选择{{name}}",
+        "start": "{{name}}起",
+        "end": "{{name}}止"
+    },
+    "inputTip": "请输入您的{{name}}",
+    "paginationTotalText": "共{{total}}条",
+    "action": {
+        "failed": "{{action}}操作失败。",
+        "success": "{{action}}操作成功。"
+    },
+    "signin": "登录",
+    "error-without-status": "页面加载异常",
+    "enable": "启用",
+    "disable": "禁用",
+    "expired": "已过期",
+    "name": "姓名",
+    "sex": "性别",
+    "phone": "手机号",
+    "email": "邮箱",
+    "next": "下一步",
+    "prev": "上一步",
+    "create_time": "创建时间",
+    "update_time": "更新时间",
+    "update": "更新",
+    "batch_update": "批量更新",
+    "memo": "备注",
+    "desc": "描述",
+    "lang_txt": "EN",
+    "view-all": "查看全部",
+    "colon": "：",
+    "custom-table-columns": "自定义表格列",
+    "select-all": "选择全部",
+    "selectFile": "选择文件",
+    "deleteFile": "删除文件",
+    "file-name": "{{name}}文件",
+    "action-tip": "注意事项",
+    "edit-pwd": "修改密码",
+    "logout": "退出登陆",
+    "balance": "账户余额",
+    "logouting": "正在退出系统...",
+    "unCheckAll": "取消全部选中",
+    "setting": {
+        "columns": "Table列",
+        "actions": "操作项"
+    },
+    "confirm_cancel": "确认取消当前操作吗？",
+    "to_perfect": "资料待完善",
+    "size": {
+        "length": "长",
+        "width": "宽",
+        "height": "高"
+    },
+    "units": {
+        "weight": {
+            "gram": "克",
+            "kilogram": "千克",
+            "ounce": "盎司",
+            "pound": "磅"
+        },
+        "size": {
+            "millimeter": "毫米",
+            "centimeter": "厘米",
+            "meter": "米",
+            "inch": "英寸",
+            "foot": "foot"
+        },
+        "price": {
+            "USD": "美元",
+            "RMB": "RMB",
+            "CNY": "CNY"
+        }
+    },
+    "uploadAlert": {
+        "begin": "开始导入{{name}}...请耐心等待",
+        "finished": "{{name}}导入完成。",
+        "failed": "{{name}}导入失败。",
+        "success": "成功<span class=\"c-success\">{{success}}</span>条， 失败<span class=\"c-danger\">{{fail}}</span>条",
+        "viewFailedList": "查看失败列表",
+        "failedListName": "{{name}}失败列表"
+    },
+    "permissionInPageTitle": "页面内权限配置",
+    "warehouse": {
+        "type": {
+            "fullfilment": "履行仓",
+            "trans": "转运仓"
+        },
+        "capacity_type": {
+            "big": "大件",
+            "small": "小件"
+        }
+    },
+    "searchKey": "关键字",
+    "password": {
+        "title": "密码格式规则。",
+        "r_1": "长度至少为至少8位的字符组成。",
+        "r_2": "至少需包含 1个大写字母，1个数字，1个特殊字符。",
+        "r_3": "包含两个非字母、数字字符。",
+        "r_4": "不能包含用户名。",
+        "r_5": "不能包含类似 ‘123’ 的简单字符组。"
+    },
+    "company": "企业",
+    "or": "或者"
+}

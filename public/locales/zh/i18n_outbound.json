@@ -1,0 +1,52 @@
+{
+    "import": "新增出库记录",
+    "edit": "编辑出库记录",
+    "detail": {
+        "title": "出库记录详情"
+    },
+    "scanColumns": {
+        "batch_id": " 批次ID",
+        "batch_name": " 批次名称",
+        "warehouse_id": "仓库ID",
+        "warehouse_code": "仓库编码",
+        "warehouse_name": "仓库名称",
+        "error_type": "错误类型",
+        "updated": "更新时间",
+        "tracking_code": "Tracking Code",
+        "trailer_id": "车牌号码",
+        "pallet_id": " 托盘",
+        "line_id": "Line ID",
+        "order_id": "订单ID",
+        "order_ref_id": "订单关联ID",
+        "order_product_id": "订单商品ID",
+        "order_product_sku": "订单商SKU",
+        "upload_at": "车出库时间"
+    },
+    "columns": {
+        "warehouse_code": "仓库编码",
+        "warehouse_name": "仓库名称",
+        "username": "文件上传者",
+        "files": "文件详情",
+        "name": "批次名称",
+        "description": "描述"
+    },
+    "panel": {
+        "basic": {
+            "title": "请完善基本信息",
+            "title_detail": "出库记录基础信息"
+        },
+        "outbound": {
+            "title": "请选择需要上传的Outbound文件",
+            "title_detail": "Outbound文件",
+            "templateDownloadTip": "导入出库记录时请使用<a href=\"{{link}}\" target=\"_blank\" rel=\"noopener noreferrer\">模板</a>，避免造成导入失败。有疑问请咨询相关人员。"
+        },
+        "evidence": {
+            "title": "上传更多证据文件",
+            "title_detail": "证据文件"
+        },
+        "uploaded": "已上传资料"
+    },
+    "upload_more_evidence": "上传更多证据文件",
+    "success_tip": "恭喜你，你的出库记录新增完成。",
+    "successTxt": "返回出库记录列表"
+}

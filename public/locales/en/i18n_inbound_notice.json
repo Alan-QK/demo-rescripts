@@ -1,0 +1,131 @@
+{
+    "column": {
+        "account_name": "Account Name",
+        "inbound_no": "Inbound No",
+        "warehouse_address": "Warehouse Address",
+        "eta_at": "Eta At",
+        "etd_at": "Etd At",
+        "total_ctns": "Total Cartons",
+        "total_gross_weight_kg": "Total Weight",
+        "total_cbm_m3": "Total Volume",
+        "file": "Files",
+        "asn": "Container Details"
+    },
+    "detailColumn": {
+        "container_no": "Container Code",
+        "sku": "SKU",
+        "description": "Description",
+        "ctns": "Ctns",
+        "total_gross_weight_kg": "Total Weight",
+        "total_cbm_m3": "Total Volume",
+        "inbound_notice": "Inbound Notice"
+    },
+    "asn": {
+        "column": {
+            "status": "Plan Status",
+            "code": "ASN CODE",
+            "asn_id": "ASN ID",
+            "shipping_origin_address": "Origin Address",
+            "container": "Container"
+        },
+        "status": {
+            "new": "New",
+            "scheduled": "Scheduled",
+            "received": "Received",
+            "unloaded": "Unloaded",
+            "closed": "Closed",
+            "canceled": "Canceled"
+        },
+        "editTipSuccess": "ASN status modification successful.",
+        "editTipFailed": "ASN state modification failed.",
+        "markFinished": "Close",
+        "cancel": "Cancel"
+    },
+    "container": {
+        "column": {
+            "code": "Container Code",
+            "typ": "Container Type",
+            "status": "Container Status",
+            "inbound_at": "Inbound At",
+            "arrived_at": "Arrived At",
+            "emptied_at": "Emptied At",
+            "picked_up_at": "PickedUp At",
+            "scheduled_picked_up_at": "Scheduled PickedUp At",
+            "owner_name": "Shipping Firm",
+            "owner_email": "Shipping Firm Email",
+            "owner_email_notified_at": "Notified At",
+            "warehouse": "Warehouse",
+            "notify_to": "Notifiy To"
+        },
+        "status": {
+            "title": "Container <b>{{code}}</b> Status",
+            "inbound": "Inbound",
+            "arrived": "Arrived",
+            "emptied": "Emptied",
+            "picked_up": "Picked Up"
+        },
+        "updateOwner": "Edit the info of Shipping Firm",
+        "notifier": {
+            "add": "Add Notifier",
+            "name": "Notifier",
+            "email": "Email",
+            "copy_tip": "Copy all Emails",
+            "title": "The detail of notifiers",
+            "action_tip": "update the info of notifiers"
+        }
+    },
+    "carton": {
+        "column": {
+            "weight": "Weight",
+            "weight_unit": "weight_unit",
+            "dim_length": "Length",
+            "dim_width": "Width",
+            "dim_height": "Height",
+            "dim_unit": "Unit",
+            "code": "Code",
+            "container": "Container",
+            "pallet_code": "Pallet",
+            "container_code": "Container Code"
+        }
+    },
+    "pallet": {
+        "column": {
+            "weight": "Weight",
+            "weight_unit": "weight_unit",
+            "dim_length": "Length",
+            "dim_width": "Width",
+            "dim_height": "Height",
+            "dim_unit": "Unit",
+            "code": "Code",
+            "container": "Container",
+            "pallet": "Pallet"
+        }
+    },
+    "each": {
+        "search": "Search Info",
+        "column": {
+            "pallet_code": "Pallet Code",
+            "carton_code": "Carton Code",
+            "container_code": "Container Code",
+            "weight": "Weight",
+            "weight_unit": "weight_unit",
+            "dim_length": "Length",
+            "dim_width": "Width",
+            "dim_height": "Height",
+            "dim_unit": "Unit",
+            "sku": "SKU",
+            "sku_quantity": "SKU Quantity",
+            "container": "Container",
+            "pallet": "Pallet",
+            "carton": "Carton"
+        }
+    },
+    "uploadBtnTxt": "Select The Shipping Plan File",
+    "add": "Create Inbound Notice",
+    "selectCompanyTip": "Please select the company.",
+    "templateDownloadTip": "Please Use <a href=\"{{link}}\" target=\"_blank\" rel=\"noopener noreferrer\">templates</a> when importing shipping plans to avoid import failures. If in doubt, please consult relevant personnel.",
+    "template": "Download The Inbound Notice Template",
+    "update_asn": "Update The Status of ASN",
+    "detail": "{{name}} Detail",
+    "qty": "{{name}} Quantity"
+}

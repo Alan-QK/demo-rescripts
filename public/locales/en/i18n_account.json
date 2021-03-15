@@ -1,0 +1,104 @@
+{
+    "columns": {
+        "username": "UserName",
+        "email": "Email",
+        "date_joined": "Date Joined",
+        "last_login": "Last Login",
+        "role": "Role",
+        "account_name": "Company",
+        "account_id": "Account ID",
+        "warehouse": "Warehouse"
+    },
+    "action": {
+        "permission": "Permission",
+        "edit": "Edit",
+        "view_detail": "View Detail",
+        "view": "View"
+    },
+    "warehouse": {
+        "name": "Warehouse Name",
+        "code": "Warehouse Code ",
+        "id": "Warehouse ID",
+        "fetchFailedTip": "Failed to pull warehouse information.",
+        "successTip": "Successful Binding Warehouse information.",
+        "failedTip": "Failed Binding Warehouse information.",
+        "backToList": "Back To UserList",
+        "title": "Warehouse Info",
+        "todo": "UnSelected",
+        "selected": "Selected",
+        "bindTxt": "Bind"
+    },
+    "company": {
+        "list": "Company List",
+        "add": "Add Company",
+        "edit": "Edit Company"
+    },
+    "user": {
+        "password": "Password",
+        "add": "Add User",
+        "edit": "Edit Permission",
+        "detail": "User Detail",
+        "backToList": "Back To List",
+        "panel": {
+            "dashboard": {
+                "warehouse": "Overview Of Warehouse",
+                "container": "Overview Of Container",
+                "order": "Overview Of Order"
+            },
+            "basic": {
+                "title": "The Basic Infomation of User.",
+                "edit": "Edit The Basic Infomation"
+            },
+            "warehouse": {
+                "title": "The Warehouse Infomation of User."
+            },
+            "permission": {
+                "title": "The Permission Infomation of User.",
+                "edit": "Edit The Permission"
+            }
+        }
+    },
+    "template": {
+        "columns": {
+            "model_name": "Modal Name",
+            "key_words": "Key Words",
+            "memo": "Description",
+            "permission": "Permission"
+        },
+        "title": "Permission Templates",
+        "add": "Add Permission Template",
+        "edit": "Edit Permission Template",
+        "selectTip": "Please select the Template.",
+        "apply": "Apply",
+        "applyToUser": "Apply the permission template to the specified user",
+        "delete_tip": "Are you sure you want to delete template {{name}}?",
+        "detail": "Permissions for details",
+        "back_to_list": "Returns the list of permission templates",
+        "panel_basic": "Basic information",
+        "panel_permission": "Configure Permissions",
+        "create_new_tip1": "You can also click",
+        "create_new_tip2": "here",
+        "create_new_tip3": "to create a new template."
+    },
+    "permission": {
+        "dashboard_title": "Home Page",
+        "basic_title": "Basic Configuration",
+        "func_title": "Functional Authority",
+        "page_title": "Page Permissions",
+        "i18n": "I18n",
+        "enable": "Enable",
+        "editPassword": "Edit Password",
+        "eventsSetting": "Events Setting",
+        "settings": "Settings"
+    },
+    "role": {
+        "superuser": "Super Administrator",
+        "superuser_tip": "The super administrator has all permissions of the system, and this account can only be used in the company Intranet to ensure data security.",
+        "operator": "Operator",
+        "operator_tip": "This role is used by FBO official operation and maintenance personnel to help customers maintain inventory changes, order status tracking, etc.",
+        "common": "Client",
+        "common_tip": "The account used by the customer.",
+        "warehouse": "Warehouse keeper",
+        "warehouse_tip": "FBO warehouse manager, responsible for tracking warehouse status, maintenance of warehouse entry, exit and other related status."
+    }
+}

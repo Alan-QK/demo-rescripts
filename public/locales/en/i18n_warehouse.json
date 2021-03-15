@@ -1,0 +1,109 @@
+{
+    "column": {
+        "code": "Warehouse Code",
+        "name": "Name",
+        "type": "Type",
+        "status": "Status",
+        "validity": "Term of Validity",
+        "position": "Position",
+        "company": "Company",
+        "postcode": "Postcode",
+        "contact": "Contact",
+        "capacity_type": "Capacity Type",
+        "expire_at": "Expiration date",
+        "api": "API Info"
+    },
+    "address": {
+        "street1": "Street1",
+        "street2": "Street2",
+        "city": "City",
+        "state": "State",
+        "country": "Country",
+        "postcode": "Postcode",
+        "company": "Company",
+        "contact": "Contact",
+        "phone": "Phone",
+        "email": "Email",
+        "latitude": "latitude",
+        "longitude": "longitude"
+    },
+    "contactColumns": {
+        "contact": "Username",
+        "phone": "Phone",
+        "email": "Email",
+        "company": "Company",
+        "role": "Role",
+        "description": "Description",
+        "created": "Create Time"
+    },
+    "type": {
+        "fullfilment": "Fullfilment",
+        "trans": "Trans"
+    },
+    "capacity_type": {
+        "big": "Big",
+        "small": "Small"
+    },
+    "status": {
+        "inuse": "InUse",
+        "unuse": "UnUsed"
+    },
+    "basic_title": "Basic Info",
+    "contact": {
+        "nodata": "No contact at the moment",
+        "title": "Please Input Contact Info",
+        "detail": "Contacts Detail",
+        "add": "Add Contact",
+        "edit": "Edit Contact",
+        "delete": "Delete Contact",
+        "success_tip": "{{action}} Successful, do you want to go back to the warehouse list page?"
+    },
+    "add": "Add Warehouse",
+    "edit": "Edit Warehouse",
+    "detail": "Warehouse Detail",
+    "back_to_list": "Back To List",
+    "back_to_detail": "Back To Detail",
+    "containue": "Continue to add",
+    "api": {
+        "modal_title": "{{warehouse.name}} API Settings",
+        "title": "API Information Maintenance",
+        "typ": "Type",
+        "username": "Username",
+        "password": "Password",
+        "url": "URL",
+        "carrier_code": "Carrier Code",
+        "service_code": "Service Code",
+        "account": "Account ID",
+        "account_name": "Account Name"
+    },
+    "bind_account": {
+        "cancel_edit": "Cancel Edit",
+        "label": "Permissions",
+        "fetchFailedTip": "Failed to pull clients information.",
+        "successTip": "Successful to authorize the warehouse to the customers.",
+        "failedTip": "Failed to authorize the warehouse to the customers.",
+        "title": "Clients Info",
+        "todo": "UnSelected",
+        "binded": "Authorized customer",
+        "selected": "Selected",
+        "bindTxt": "Authorize",
+        "tip": "Please configure the permission to use the warehouse for the customer before using the warehouse."
+    },
+    "fee": {
+        "set_title": "Setting Rates",
+        "get_tip": "Getting Rates",
+        "min": "Min",
+        "max": "Max",
+        "range": "Inventory turnover range",
+        "title": "Rate({{currency}})",
+        "errot_tip_fee": "Please perfect the rate parameters",
+        "errot_tip_min": "Please perfect the start time of the turnover range"
+    },
+    "service_code": {
+        "label": "Services",
+        "code": "Service Name",
+        "setting": "Services Setting",
+        "bind": "Bind ",
+        "unbind": "Unbind "
+    }
+}

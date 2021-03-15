@@ -1,0 +1,143 @@
+{
+    "name": "订单",
+    "columns": {
+        "company": "公司",
+        "id": "Order ID",
+        "ref_id": "订单ID（客户）",
+        "account_name": "所属客户",
+        "shipments": "Shipments",
+        "error_type": "错误类型",
+        "status": "订单状态",
+        "order_rated": "订单费用",
+        "order_at": "下单日期",
+        "shipment_at": "期望发货日期",
+        "description": "订单描述",
+        "to_address": "地址",
+        "items": "商品详情",
+        "error": "错误详情",
+        "service_type": "服务类型",
+        "carrier_code": "物流商编码",
+        "service_code": "服务编码",
+        "carrier": "物流商",
+        "tracking_code": "跟踪编码",
+        "product_id": "产品ID",
+        "product_name": "产品名称",
+        "sku": "SKU 【数量】",
+        "sku_label": "SKU",
+        "product_qty": "SKU数量",
+        "warehouse_id": "仓库",
+        "warehouse_code": "仓库编码",
+        "warehouse_name": "仓库名称",
+        "file": "面单",
+        "is_auto": "分仓类型",
+        "shipped_at": "实际发货日期",
+        "api_type": "订单类型"
+    },
+    "status": {
+        "new": "新建",
+        "allocated": "已分配",
+        "unallocated": "未分配",
+        "cancelled": "已取消",
+        "cancelled_fail": "取消失败",
+        "allocate": "分配中",
+        "ordering": "下单中",
+        "purchasing": "支付中",
+        "success": "下单成功",
+        "shipping": "出库中",
+        "shipped": "已发货",
+        "failure": "下单失败",
+        "cancelling": "正在取消"
+    },
+    "errorType": {
+        "address": "地址错误",
+        "sku": "sku错误",
+        "warehouse": "仓库错误",
+        "error": "API调用失败",
+        "excetion": "API调用异常",
+        "cancelled_fail": "取消失败",
+        "inventory_insufficient": "库存不足"
+    },
+    "ordering": {
+        "title": "下单",
+        "re_title": "重新下单",
+        "tip": "请上传订单文件"
+    },
+    "division": {
+        "auto": "自动分配",
+        "manual": "手动分配"
+    },
+    "action": {
+        "detail": "订单详情",
+        "split": "订单拆分",
+        "add": "新增订单",
+        "backToList": "返回订单列表",
+        "print_label": "打印面单",
+        "act_ftp_shipping": "ACT订单上传FTP",
+        "cancel": "取消订单"
+    },
+    "basic": {
+        "title": "订单基础信息",
+        "ref_id": "订单ID",
+        "sku": "SKU",
+        "product_qty": "sku数量",
+        "warehouse_id": "仓库",
+        "service_type": "服务类型",
+        "description": "订单描述",
+        "order_at": "下单日期",
+        "shipment_at": "期望发货日期",
+        "parcel": "包裹信息",
+        "to_address": "收货地址"
+    },
+    "parcel": {
+        "title": "包裹详情",
+        "weight": "重量",
+        "weight_unit": "重量单位",
+        "dim_length": "长",
+        "dim_width": "宽",
+        "dim_height": "高",
+        "size": "长*宽*高",
+        "dim_unit": "尺寸单位"
+    },
+    "address": {
+        "title": "地址信息",
+        "street1": "地址1",
+        "street2": "地址2",
+        "city": "城市",
+        "state": "省/州",
+        "country": "国家",
+        "postcode": "邮编",
+        "company": "公司",
+        "contact": "联系人",
+        "phone": "电话",
+        "email": "邮箱"
+    },
+    "batch": {
+        "title": "选择需要导入的订单文件",
+        "tip": "上传订单时请使用模板建议的格式。",
+        "linkTxt": "模板文件下载",
+        "form_item_label": "选择订单Excel"
+    },
+    "single_label": "添加单条订单",
+    "batch_label": "按{{typ}}批量导入订单",
+    "single_label2": "单品添加",
+    "title_toggleAddModal": "切换订单添加模式",
+    "warehouse": {
+        "title": "分仓信息",
+        "code": "仓库编码",
+        "isAutoSplit": "是否自动分仓",
+        "text_bind": "绑定仓库",
+        "noUsedAlert": "该公司无可用的仓库，请先为其",
+        "noUsedAlert2": "。",
+        "user_empty_tip": "您所属的企业暂无可用的仓库，请联系相关负责人及时处理。"
+    },
+    "zipTip1": "只能选择状态为<b class=\"c-green\">{{success}}</b>, <b class=\"c-warn\">{{shipping}}</b>或者<b class=\"c-green\">{{shipped}}</b>的订单",
+    "zipTip2": "订单类型需要为DBO",
+    "cancelTip": "只能取消<b>{{success}}</b>的订单。",
+    "service": {
+        "fetch_failed": "服务信息查询失败。",
+        "selected_warehouse": "当前选中仓库为：",
+        "in_used": "使用中的服务包括：",
+        "empty_tip": "该仓库还未绑定可用的服务。",
+        "tip": "上传订单列表时请确认订单中的服务为可用项，请注意服务名称的拼写准确，如目标仓库未绑定服务，请先联系FBO管理员配置服务。"
+    }
+}

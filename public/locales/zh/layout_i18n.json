@@ -1,0 +1,114 @@
+{
+    "menu": {
+        "signin": "登录FBO系统",
+        "home": "首页",
+        "product": "商品中心",
+        "subs_product": {
+            "list": "商品列表",
+            "add": "添加商品",
+            "detail": "商品详情",
+            "edit": "编辑商品"
+        },
+        "inventory": {
+            "title": "库存管理",
+            "list": "库存列表",
+            "update": "手动更新",
+            "detail": "库存详情",
+            "batch": "Batch列表",
+            "batch_fee": "Batch Fee列表",
+            "summary": {
+                "total": "总库存",
+                "warehouse": "仓库库存",
+                "account": "卖家库存"
+            }
+        },
+        "shipment": "入仓计划",
+        "report": {
+            "title": "报告统计",
+            "daily": "每日报告",
+            "daily_detail": "每日报告详情"
+        },
+        "warehouse": "仓库管理",
+        "setting": "个人中心",
+        "account": "用户中心",
+        "sub_account": {
+            "list": "用户列表",
+            "detail": "用户详情",
+            "edit": "编辑用户",
+            "add": "新增用户",
+            "template": {
+                "title": "权限模板",
+                "add": "新增模板",
+                "edit": "编辑模板"
+            }
+        },
+        "address": "地址管理",
+        "subs_warehouse": {
+            "add": "新增仓库",
+            "list": "仓库列表",
+            "edit": "编辑仓库",
+            "detail": "仓库详情"
+        },
+        "outbound": {
+            "record": "出库记录",
+            "title": "出库管理",
+            "scan": "出库记录详情列表",
+            "add": "新建出库记录",
+            "edit": "编辑出库记录",
+            "detail": "编辑出库详情"
+        },
+        "inbound": {
+            "title": "入仓管理",
+            "list": "入仓记录",
+            "add": "新建入仓记录",
+            "edit": "编辑入仓记录",
+            "detail": "入仓记录详情",
+            "tally_report": "理货报告"
+        },
+        "inbound_detail": "入仓记录详情",
+        "tally_report": {
+            "list": "理货报告",
+            "detail": "理货报告详情"
+        },
+        "inbound_notice": {
+            "title": "入仓计划",
+            "mgr": "入仓计划",
+            "list": "入仓计划列表",
+            "add": "创建入仓计划",
+            "asn": "ASN列表",
+            "container": "集装箱信息",
+            "carton": "Carton列表",
+            "pallet": "Pallet列表",
+            "sku": "SKU列表",
+            "asn_detail": "ASN详情",
+            "container_detail": "Container详情",
+            "carton_detail": "Carton详情",
+            "pallet_detail": "Pallet详情",
+            "sku_detail": "SKU详情"
+        },
+        "order": {
+            "title": "订单中心",
+            "list": "订单列表",
+            "add": "新增订单",
+            "detail": "订单详情"
+        },
+        "password_edit": "修改密码",
+        "events_mgr": "事件管理",
+        "rate": {
+            "label": "费率中心",
+            "list": "费率列表",
+            "create": "新建费率",
+            "detail": "费率详情"
+        },
+        "settings": "设置中心",
+        "events": {
+            "label": "事件管理",
+            "receiver": "邮件通知",
+            "logs": "事件记录日志"
+        }
+    },
+    "positionAt": "您当前的位置：",
+    "warehouse": "我的仓库",
+    "logout": "退出登录",
+    "userMgr": "用户管理"
+}

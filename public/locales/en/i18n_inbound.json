@@ -1,0 +1,86 @@
+{
+    "inbound": "Container",
+    "import": "Upload Inbound Files",
+    "edit": "Edit Inbound Files",
+    "detail": {
+        "title": "Inbound Files Details",
+        "asn": "Inbound No"
+    },
+    "panel": {
+        "container": {
+            "title": "Please select the container.",
+            "title_detail": "The Basic Info of Inbound Record.",
+            "name": "Container",
+            "status": "Container Status"
+        },
+        "pod": {
+            "label": "POD Files",
+            "title_edit": "Edit POD Files.",
+            "title_detail": "POD Details.",
+            "title": "Please upload The POD Report."
+        },
+        "tally_report": {
+            "label": "Tally Report",
+            "title_edit": "Edit The Tally Report.",
+            "title_detail": "Tally Report`s Detail.",
+            "title": "Please upload The Tally Report."
+        },
+        "others": {
+            "label": "Other Files",
+            "title_edit": "Edit Other Files.",
+            "title_detail": "Other Files Detail.",
+            "title": "Some other documents<span style=\"color: #999\">(Not Essential)</span>."
+        },
+        "uploaded": "Uploaded Files"
+    },
+    "columns": {
+        "account": "Accont Name",
+        "container": "Container",
+        "asn": "ASN CODE",
+        "pod": "POD Files",
+        "tally_report": "Tally Report",
+        "others": "Other Files",
+        "inbound_at": "Inbound At"
+    },
+    "tallyReportColumns": {
+        "truck_company": "Truck Company",
+        "container_or_trailer": "Trailer",
+        "driver_print_name": "Driver",
+        "unloading_date": "Unloading Date",
+        "unloading_start_time": "Start",
+        "unloading_finish_time": "End",
+        "unloading_team_leader": "Unloading Team Leader",
+        "loading_method": "Loading Method",
+        "pallet_quantity": "Pallet Quantity",
+        "report_date": "Report Date",
+        "container": "Container",
+        "general_reports": "General Reports",
+        "expiration_date_reports": "Expiration Date Reports",
+        "other_exception_reports": "Exception Reports"
+    },
+    "tallyReportDetail": {
+        "title": "Tally Report Detail",
+        "sku": "SKU",
+        "quantity": "Quantity",
+        "delete": "Delete Tally Report",
+        "general_reports": {
+            "packing_list_quantity": "Packing List",
+            "actual_quantity": "Actual",
+            "shortage_quantity": "Shortage",
+            "overtage_quantity": "Overtage",
+            "damage_quantity": "Damage"
+        },
+        "expiration_date_reports": {
+            "actual_exp_date": "Actual ExpDate",
+            "packing_list_exp_date": "Packing List ExpDate"
+        },
+        "other_exception_reports": {
+            "exception_description": "Description"
+        }
+    },
+    "delete_file_failed_tip": "the File deletion failed.",
+    "cancel_modal_tip": "Confirm to cancel the current operation?",
+    "cancel_modal_txt": "You will return to the entry list interface.",
+    "back_to_list": "Return To Inbound Records",
+    "templateDownloadTip": "You can download the tally report template via <a href=\"{{link}}\" target=\"_blank\" rel=\"noopener noreferrer\">here link</a>."
+}

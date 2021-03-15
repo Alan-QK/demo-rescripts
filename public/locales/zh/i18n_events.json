@@ -1,0 +1,46 @@
+{
+    "event_name": "事件",
+    "notifier": "邮件通知人",
+    "copy_tip": "复制全部通知人邮箱",
+    "add": "新增",
+    "name": "姓名",
+    "email": "邮箱地址",
+    "add_tip": "新增通知人",
+    "del_tip": "删除通知人",
+    "order--act_ftp_shipping": {
+        "label": "ACT订单FTP上传",
+        "desc": "每天定时将ACT仓库相关订单通过FTP服务器上传至ACT仓库管理系统。"
+    },
+    "order--order_imported": {
+        "label": "订单导入",
+        "desc": "当通过Excel导入订单时, 触发此事件"
+    },
+    "inventory--product_imported": {
+        "label": "产品导入",
+        "desc": "当通过Excel导入产品时，触发此事件"
+    },
+    "inbound--inbound_notice_file_created": {
+        "label": "入仓计划创建",
+        "desc": "当成功创建入仓计划时，触发此事件"
+    },
+    "order--daily_deadline_shipping": {
+        "label": "每天截单汇总",
+        "desc": "每天会在设定的时间点，汇总当天要截单的成功的订单"
+    },
+    "order--order_cancelled": {
+        "label": "订单已取消",
+        "desc": "当订单已取消时，触发此事件"
+    },
+    "logs": {
+        "columns": {
+            "id": "ID",
+            "code": "事件编码",
+            "created": "发生时间",
+            "is_handle_success": "处理状态",
+            "handled_at": "事件处理时间",
+            "params": "参数"
+        },
+        "handled_success": "处理成功",
+        "handled_failed": "处理失败"
+    }
+}

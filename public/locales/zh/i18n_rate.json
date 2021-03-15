@@ -1,0 +1,15 @@
+{
+    "name": "费率表名称",
+    "description": "描述",
+    "is_active": "是否启用",
+    "active_at": "生效时间",
+    "expire_at": "过期时间",
+    "currency": "币种",
+    "service_type": "服务类型",
+    "zone_type": "Zone类型",
+    "rate_unit": "费率表单位",
+    "rate_file": "费率表原文件",
+    "account_name": "所属客户",
+    "tip": "上传的费率表请参考模板进行编辑，注意完善模板中【基础费率】和【默认附加费】的相关信息。",
+    "detail": "费率表详情"
+}

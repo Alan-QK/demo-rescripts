@@ -1,0 +1,106 @@
+{
+    "columns": {
+        "username": "用户名",
+        "email": "邮箱",
+        "date_joined": "创建时间",
+        "last_login": "上次登录时间",
+        "role": "角色",
+        "account_name": "公司名称",
+        "account_id": "客户ID",
+        "warehouse": "仓库信息"
+    },
+    "action": {
+        "permission": "权限信息",
+        "edit": "编辑",
+        "view_detail": "查看详情",
+        "view": "View"
+    },
+    "warehouse": {
+        "name": "仓库名称",
+        "code": "仓库编码 ",
+        "id": "ID",
+        "fetchFailedTip": "仓库信息拉取失败。",
+        "successTip": "仓库信息绑定成功。",
+        "failedTip": "仓库信息绑定失败。",
+        "backToList": "返回用户列表",
+        "title": "仓库信息",
+        "todo": "待绑定仓库",
+        "selected": "已选中仓库",
+        "bindTxt": "开始绑定"
+    },
+    "company": {
+        "name": "公司名称",
+        "list": "公司列表",
+        "add": "新增公司",
+        "edit": "修改公司信息",
+        "warehouse": "关联仓库"
+    },
+    "user": {
+        "password": "密码",
+        "add": "新增用户",
+        "edit": "修改用户权限",
+        "detail": "用户详情",
+        "backToList": "返回用户列表",
+        "panel": {
+            "dashboard": {
+                "warehouse": "仓库概览",
+                "container": "集装箱概览",
+                "order": "订单概览"
+            },
+            "basic": {
+                "title": "用户基本信息",
+                "edit": "编辑用户基本信息"
+            },
+            "warehouse": {
+                "title": "用户仓库信息"
+            },
+            "permission": {
+                "title": "用户权限详情",
+                "edit": "编辑用户权限"
+            }
+        }
+    },
+    "template": {
+        "columns": {
+            "model_name": "模板名称",
+            "key_words": "关键词",
+            "memo": "描述",
+            "permission": "权限信息"
+        },
+        "title": "权限模板",
+        "add": "新增权限模板",
+        "applyToUser": "应用权限模板到指定用户",
+        "edit": "编辑权限模板",
+        "selectTip": "选择权限模板",
+        "apply": "应用",
+        "delete_tip": "确定要删除模板{{name}}吗？",
+        "detail": "权限详情",
+        "back_to_list": "返回权限模板列表",
+        "panel_basic": "基础信息",
+        "panel_permission": "配置权限",
+        "create_new_tip1": "你也可以点击",
+        "create_new_tip2": "这里",
+        "create_new_tip3": "去新建一个模板。"
+    },
+    "permission": {
+        "dashboard_title": "首页配置",
+        "basic_title": "基础配置",
+        "func_title": "功能权限",
+        "page_title": "页面权限",
+        "i18n": "国际化",
+        "enable": "是否启用",
+        "editPassword": "密码修改",
+        "eventsSetting": "事件管理",
+        "settings": "设置中心"
+    },
+    "role": {
+        "superuser": "超级管理员",
+        "superuser_tip": "超级管理员拥有系统的所有权限，该账号仅能在公司内网使用，以确保数据安全性。",
+        "operator": "运营人员",
+        "operator_tip": "该角色为FBO官方运维人员使用，可以帮助客户维护库存变更、订单状态跟踪等。",
+        "common": "普通用户",
+        "common_tip": "客户使用的账号。",
+        "warehouse": "仓库管理员",
+        "warehouse_tip": "FBO仓库管理员，负责仓库状态的跟踪，维护仓库的入库、出库等相关状态。"
+    }
+}
